@@ -36,12 +36,12 @@
 
 - Rule 생성
 ‘carRecog/request’ 토픽에서 메시지를 읽어오기 위한 Rule(SQL SELECT Clause)을 생성함
-<img src="https://user-images.githubusercontent.com/76219962/178242089-e3891755-106b-483f-8668-8cc18ffec653.png" width="700px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178242089-e3891755-106b-483f-8668-8cc18ffec653.png" width="600px" height="400px">
 <br/>
 
 - 트리거 생성
 ‘carRecog/request’ 토픽에 메시지가 들어오면 람다함수를 호출 할 트리거를 추가
-<img src="https://user-images.githubusercontent.com/76219962/178243117-ceea0099-9f22-4bc6-9df2-8a2c59100d59.png" width="700px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178243117-ceea0099-9f22-4bc6-9df2-8a2c59100d59.png" width="600px" height="400px">
 <br/>
 <br/>
 
@@ -62,7 +62,7 @@ S3에 업로드 된 이미지를 사용해서 Rekognition 진행 후 감지 된 
 <img src="https://user-images.githubusercontent.com/76219962/178243609-295f0106-1806-40d4-a947-0205defcb85f.png" width="600px" height="300px">
 
 - manage.js
-<img src="https://user-images.githubusercontent.com/76219962/178243625-d482bd2a-2a91-45f9-9073-1e6e6c2f81d9.png" width="500px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178243625-d482bd2a-2a91-45f9-9073-1e6e6c2f81d9.png" width="600px" height="400px">
 
 ## 🛠️ 기술
 

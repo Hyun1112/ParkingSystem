@@ -12,7 +12,7 @@
 
 ## 💡 시스템 구성도
 
-<img src="https://user-images.githubusercontent.com/76219962/178237775-dbb801b3-7f07-43af-be2e-c40f82e98054.png" width="600px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178237775-dbb801b3-7f07-43af-be2e-c40f82e98054.png" width="500px" height="250px">
 
 ## 💡 라즈베리파이 환경세팅
 사용 부품 : 라즈베리 파이 3 Model B, 초음파 센서(HC-SR04), 카메라 모듈(Camera V2.1)<br/>
@@ -21,8 +21,8 @@
 ## 💡 프로젝트 구현
 ### 1. AWS 세팅
 - 사물(camera,manage)생성후 정책 연결
-<img src = "https://user-images.githubusercontent.com/76219962/178241042-36064dfb-89e6-4248-be4a-f9a8e584d84e.png" width="600px" height="300px">
-<img src="https://user-images.githubusercontent.com/76219962/178241121-0c342c7a-2cc6-4f35-a5c1-12533ba17745.png" width="600px" height="300px">
+<img src = "https://user-images.githubusercontent.com/76219962/178241042-36064dfb-89e6-4248-be4a-f9a8e584d84e.png" width="500px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178241121-0c342c7a-2cc6-4f35-a5c1-12533ba17745.png" width="500px" height="300px">
 <br/>
 
 - Role 생성 : IAM
@@ -36,12 +36,12 @@
 
 - Rule 생성
 ‘carRecog/request’ 토픽에서 메시지를 읽어오기 위한 Rule(SQL SELECT Clause)을 생성함
-<img src="https://user-images.githubusercontent.com/76219962/178242089-e3891755-106b-483f-8668-8cc18ffec653.png" width="600px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178242089-e3891755-106b-483f-8668-8cc18ffec653.png" width="700px" height="300px">
 <br/>
 
 - 트리거 생성
 ‘carRecog/request’ 토픽에 메시지가 들어오면 람다함수를 호출 할 트리거를 추가
-<img src="https://user-images.githubusercontent.com/76219962/178243117-ceea0099-9f22-4bc6-9df2-8a2c59100d59.png" width="600px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178243117-ceea0099-9f22-4bc6-9df2-8a2c59100d59.png" width="700px" height="300px">
 <br/>
 <br/>
 
@@ -62,7 +62,7 @@ S3에 업로드 된 이미지를 사용해서 Rekognition 진행 후 감지 된 
 <img src="https://user-images.githubusercontent.com/76219962/178243609-295f0106-1806-40d4-a947-0205defcb85f.png" width="600px" height="300px">
 
 - manage.js
-<img src="https://user-images.githubusercontent.com/76219962/178243625-d482bd2a-2a91-45f9-9073-1e6e6c2f81d9.png" width="500px" height="200px">
+<img src="https://user-images.githubusercontent.com/76219962/178243625-d482bd2a-2a91-45f9-9073-1e6e6c2f81d9.png" width="500px" height="300px">
 
 ## 🛠️ 기술
 

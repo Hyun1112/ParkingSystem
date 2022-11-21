@@ -21,8 +21,8 @@
 ## 💡 프로젝트 구현
 ### 1. AWS 세팅
 - 사물(camera,manage)생성후 정책 연결
-<img src = "https://user-images.githubusercontent.com/76219962/178241042-36064dfb-89e6-4248-be4a-f9a8e584d84e.png" width="400px" height="300px">
-<img src="https://user-images.githubusercontent.com/76219962/178241121-0c342c7a-2cc6-4f35-a5c1-12533ba17745.png" width="400px" height="300px">
+<img src = "https://user-images.githubusercontent.com/76219962/178241042-36064dfb-89e6-4248-be4a-f9a8e584d84e.png" width="700px" height="300px">
+<img src="https://user-images.githubusercontent.com/76219962/178241121-0c342c7a-2cc6-4f35-a5c1-12533ba17745.png" width="700px" height="300px">
 <br/>
 
 - Role 생성 : IAM

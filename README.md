@@ -62,7 +62,7 @@ S3에 업로드 된 이미지를 사용해서 Rekognition 진행 후 감지 된 
 <img src="https://user-images.githubusercontent.com/76219962/178243609-295f0106-1806-40d4-a947-0205defcb85f.png" width="600px" height="300px">
 
 - manage.js
-<img src="https://user-images.githubusercontent.com/76219962/178243625-d482bd2a-2a91-45f9-9073-1e6e6c2f81d9.png" width="600px" height="400px">
+<img src="https://user-images.githubusercontent.com/76219962/178243625-d482bd2a-2a91-45f9-9073-1e6e6c2f81d9.png" width="500px" height="200px">
 
 ## 🛠️ 기술
 
